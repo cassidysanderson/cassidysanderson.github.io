@@ -21,6 +21,7 @@ function init (){
     birdY = 100;
     birdDy = 0; // delta y, the increasement of birdY in an interval
     score = 0;
+    clearInterval (timer)
     timer = setInterval (drawFrame, 20);
 }
  
